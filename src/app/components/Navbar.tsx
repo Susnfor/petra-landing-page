@@ -31,7 +31,7 @@ export const Navbar = ({isDark, setIsDark}:any) => {
 
         {
             !toggle &&  <div id='logo' className='relative'>
-            <h1 className='text-3xl text-secondary'>Foodie</h1>
+            <h1 className='text-3xl text-secondary'>Petra</h1>
         </div>
         }
         {/* <div id='logo' className='relative'>
