@@ -13,6 +13,22 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      colors: {
+        primary: 'rgba(var(--primary-color))',
+        secondary: 'rgba(var(--secondary-color))',
+        third: 'rgba(var(--third-color))',
+        fourth: 'rgba(var(--fourth-color))',
+        darktext: 'rgba(var(--dark-text))',
+      },
+      animation: {
+        'spin-slow': 'spin 1s linear infinite',
+      },
+      keyframes: {
+        'spin-slow': {
+          from: { transform: 'rotate(0deg)' },
+          to: { transform: 'rotate(360deg)' },
+        },
+      },
     },
   },
   plugins: [],
