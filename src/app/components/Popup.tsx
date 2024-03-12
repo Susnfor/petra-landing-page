@@ -1,5 +1,6 @@
 import React from 'react'
-import { PhoneArrowDownLeftIcon } from '@heroicons/react/24/outline'
+import { ScrollParallax } from 'react-just-parallax'
+
 
 type PopupProps = {
 
@@ -10,7 +11,9 @@ type PopupProps = {
 }
 export const Popup = ({title, Icon,  desc, extra}: PopupProps) => {
   return (
+    <ScrollParallax >
     <div className='h-30 relative py-5'>
+      
     <div className='h-40 w-52 bg-white rounded-3xl shadow-md flex flex-col justify-center items-center'>
       <h1 className='text-fifth text-xl '>{title}</h1>
       <p className='font-light text-base text-darktext'>{desc}</p>
@@ -20,11 +23,13 @@ export const Popup = ({title, Icon,  desc, extra}: PopupProps) => {
       </div>
       </div>
       
+      
 
 
 
 
 
     </div>
+    </ScrollParallax>
   )
 }
