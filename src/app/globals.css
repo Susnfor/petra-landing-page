@@ -5,6 +5,11 @@
 
 :root {
   --dark-text:56,	56,	56;
+  --mustard: 246,	199,	68;
+  --light-mustard: 233,	174, 87;
+  --maroon: 184,	74,	69;
+
+
 }
 
 [data-theme= 'light'] {
@@ -15,6 +20,7 @@
     --secondary-color: 184,	74,	69;
     --primary-color: 246,	199,	68;
     --fourth-color: 233,	174, 87;
+    --fifth-color: 246,	199,	68;
   
 
 }
@@ -27,6 +33,7 @@
   --third-color: 56,	56,	56;
   --secondary-color: 184,	74,	69;
   --primary-color: 254,	253,	242;
+  --fifth-color:  56,	56,	56;
 
   
 }

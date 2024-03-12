@@ -19,6 +19,10 @@ const config: Config = {
         third: 'rgba(var(--third-color))',
         fourth: 'rgba(var(--fourth-color))',
         darktext: 'rgba(var(--dark-text))',
+        mustard: 'rgba(var(--mustard))',
+        lightmustard: 'rgba(var(--light-mustard))',
+        maroon: 'rgba(var(--maroon))',
+        fifth: 'rgba(var(--fifth-color))',
       },
       animation: {
         'spin-slow': 'spin 1s linear infinite',
