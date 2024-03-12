@@ -27,7 +27,7 @@ export const navItems = [
 export const Navbar = ({isDark, setIsDark}:any) => {
     const [toggle, setToggle] = useState(false);
   return (
-    <div className='flex justify-between font-extrabold pt-10 md:px-20 px-10 sticky w-full z-10 transition-all'>
+    <div className='flex justify-between gap-48 font-extrabold pt-10 md:px-20 px-10 sticky w-full z-10 transition-all'>
 
         {
             !toggle &&  <div id='logo' className='relative'>
